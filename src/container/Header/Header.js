@@ -1,23 +1,13 @@
 import React from "react";
 import "./Header.css";
-import HeaderLogo from "../../components/HeaderComp/HeaderLogoComp";
-import BurgerMenu from "../../components/HeaderComp/HeaderBurgerMenuComp";
-import HeaderBottomImg from "../../components/HeaderComp/HeaderBottomImgComp";
-
+import MainContainer from "../../components/HeaderComp/HeaderMainContainer";
 const Header = () => {
   return (
     <>
       <div id="main-header">
-      <div className="container">
-        <div className="row">
-          <HeaderLogo />
-          <BurgerMenu />
-          <HeaderBottomImg />
-        </div>
-      </div>
+        <MainContainer />
       </div>
     </>
   );
 };
-
-export default Header;
+export default Header

@@ -3,6 +3,7 @@ import "../Main/Main.css"
 import StylistHomeIcon from "./Img/stylist-homeicon.png"
 import StylistHomeCabluck from "./Img/stylist-home-cabluck.png"
 import StylistHomeShoe from "./Img/stylist-home-shoe.png"
+import ButtonVievMoreInfo from "../../components/MainComp/MainButtonVievMoreInfo";
 const Main = () => {
   return (
     <>
@@ -35,7 +36,7 @@ const Main = () => {
                 </div>
                 <div className="col-xs-12">
                     <div className="button-article">
-                        <a href="">view more info</a>
+                        <ButtonVievMoreInfo />
                     </div>
                 </div>
 
@@ -208,7 +209,7 @@ const Main = () => {
                 </div>
                 <div className="col-xs-12">
                     <div className="button-article fifth-article-button">
-                        <a href="">view more info</a>
+                        <ButtonVievMoreInfo />
                     </div>
                 </div>
             </div>
