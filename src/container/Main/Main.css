@@ -286,3 +286,147 @@
   top: 160px;
   left: -100px;
 }
+/* stories-article/////////////////// */
+#root > #stories-article{
+  background-image: url(./Img/stylist-home-blog-b.jpg);
+  padding-top: 150px;
+}
+.col-xs-10 {
+  flex: 0 0 83.3333333%;
+  min-width: 83.3333333% ;
+}
+.fifth-article {
+  color: white;
+}
+.about-stories{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+.about-stories > span > a {
+  color: white;
+  text-decoration: none;
+} 
+.about-stories > span > a:hover {
+  color: rgb(231, 210, 210);
+  transition: 0.5s;
+}
+.fisrt-bgi-muffin-grop {
+  background-image: url(./Img/stylist-blog-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+.fisrt-bgi-muffin-grop:hover >.display-for-flex {
+  padding-bottom:15px;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.fisrt-bgi-muffin-grop:hover > .display-for-flex > hr {
+  width: 120px;
+  transition: 0.3s ease-in-out;
+  visibility: visible;
+}
+.muffin-group-img {
+  margin-top:70px; 
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.second-bgi-muffin-grop {
+  background-image: url(./Img/stylist-blog-image2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+}
+.second-bgi-muffin-grop:hover >.display-for-flex {
+  padding-bottom:15px;
+  transition: ease 0.3s ;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.second-bgi-muffin-grop:hover > .display-for-flex > hr {
+  width: 120px;
+  transition: ease 0.3s  ;
+  visibility: visible;
+}
+
+
+.third-bgi-muffin-grop {
+  background-image: url(./Img/stylist-blog-image3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 205px;
+  margin-top: 15px;
+}
+.third-bgi-muffin-grop:hover >.display-for-flex {
+  padding-bottom:15px;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.third-bgi-muffin-grop:hover > .display-for-flex > hr {
+  width: 120px;
+  transition: 0.3s ease-in-out;
+  visibility: visible;
+}
+
+/* display-for-flex */
+.display-for-flex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.main-info-muffin-group{
+  color: rgba(189, 148, 148, 0.767);
+}
+.main-info-muffin-group div span a {
+  color: rgba(189, 148, 148, 0.767);
+  text-decoration: none;
+}
+.main-info-muffin-group div span a:hover {
+  color: rgb(185, 66, 66);
+}
+.display-for-flex  hr {
+  margin-top: 15px;
+  margin-left: 0;
+  height: 3.5px;
+  background-color: white;
+  width: 0px;
+  visibility: hidden;
+}
+.about-muffin-group {
+  color: white;
+  font-size: 25px;
+  margin-top: 13px;
+}
+.fifth-article-button{
+  margin-bottom: 170px;
+}
+
+#root > #stories-article >.container > .row >.col-xs-12 >.button-article > a {
+  color: white;
+  border-bottom: none;
+  border-top: none;
+ 
+}
+#root > #stories-article >.container > .row >.col-xs-12 >.button-article >a:hover {
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+}
+.some-text-storie {
+  font-weight: 500;
+  margin-top: 50px;
+  max-width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 14px;
+  line-height: 30px;
+}
