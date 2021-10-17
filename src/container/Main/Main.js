@@ -5,14 +5,14 @@ import FeshionGalleries from "../../components/MainComp/FashionGalleries";
 import DoYouNeedStyle from "../../components/MainComp/DoYouNeedStyle";
 import StoryArticle from "../../components/MainComp/StoryArticle"
 import ContactInfoBottom from "../../components/MainComp/ContactInfoBottom";
+import FashionGalleries from "../../components/MainComp/FashionGalleries";
 const Main = () => {
   return (
     <>
       <ImStylistFirst />
-      <FeshionGalleries />
+      <FashionGalleries />
       <DoYouNeedStyle />
       <StoryArticle />
-      <ContactInfoBottom />
     </>
   );
 };

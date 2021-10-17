@@ -1,5 +1,5 @@
 import React from "react";
-const FeshionGalleries = () => {
+const FashionGalleries = () => {
     return (
 <>
     <section id="fashion-galleries">
@@ -52,4 +52,4 @@ const FeshionGalleries = () => {
     )
   
 };
-export default FeshionGalleries
+export default FashionGalleries
