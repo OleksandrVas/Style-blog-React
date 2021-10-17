@@ -4,7 +4,6 @@ import DoYouNeedStyle from "./DoYouNeedStyle";
 import FashionGalleries from "./FashionGalleries";
 import StoryArticle from "./StoryArticle";
 
-
 const MainComponents = () => {
     return (
         <>
@@ -15,3 +14,4 @@ const MainComponents = () => {
         </>
     )
 }
+export  default  MainComponents
